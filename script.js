@@ -19,6 +19,7 @@ score1EL.textContent= 0;
 diceEL.classList.add('hidden');
 
 let currentScore = 0;
+let activePlayer = 0;
 
 btnroll.addEventListener('click', function () {
 
@@ -45,6 +46,7 @@ btnroll.addEventListener('click', function () {
     
     else {
         // switch the player
+
     }
 
 
