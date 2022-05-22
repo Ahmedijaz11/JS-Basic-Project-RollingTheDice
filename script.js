@@ -106,7 +106,16 @@ btnroll.addEventListener('click', function () {
             document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
             document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
             
-            
+            if([activePlayer] == 0)
+            {
+                document.querySelector('.win0').classList.remove('hidden');
+            }
+
+            else
+            {
+                document.querySelector('.win1').classList.remove('hidden');
+            }
+            console.log(winp);
 
 
 
